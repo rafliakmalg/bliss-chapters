@@ -1,0 +1,100 @@
+{
+  "user": {
+    "username": "dinda",
+    "passcode": "141025",
+    "display_name": "Dinda",
+    "login_hints": [
+      "Angkanya 6 digit, dan kamu pasti ingat hari itu 🤍",
+      "Format-nya DDMMYY. Hari pertama kita jalan bareng di Blok M.",
+      "Bulan Oktober, tahun 2025. Tanggalnya sama kayak nomor punggung pemain favoritmu 😉"
+    ]
+  },
+  "events": [
+    {
+      "slug": "dinda-birthday-2026",
+      "chapter_number": 1,
+      "title": "Chapter 1: Dinda's Birthday Special",
+      "description": "Seberapa ingat kamu sama petualangan kita di Blok M dan GI? Jawab cepat, kumpulkan poin, tukar jadi hadiah!",
+      "active": 1,
+      "release_date": "2026-10-17T00:00:00+07:00",
+      "time_limit_seconds": 75,
+      "time_bonus_seconds": 3,
+      "time_penalty_seconds": 5,
+      "points_per_correct": 100,
+      "pass_percentage": 60,
+      "quizzes": [
+        {
+          "location_tag": "Blok M",
+          "question": "Waktu pertama kali jalan ke Blok M, kita makan apa duluan?",
+          "options": ["Mie ayam", "Sate taichan", "Dimsum", "Martabak manis"],
+          "correct_option_index": 1,
+          "fun_fact": "Kamu minta level pedas paling tinggi, terus minum es teh 3 gelas 😂",
+          "sort_order": 1
+        },
+        {
+          "location_tag": "Blok M",
+          "question": "Barang apa yang kita hunting di Blok M Square sampai lupa waktu?",
+          "options": ["Piringan hitam", "Kamera analog", "Buku bekas", "Sepatu vintage"],
+          "correct_option_index": 0,
+          "fun_fact": "Dan akhirnya kita beli piringan hitam padahal belum punya turntable-nya 🎶",
+          "sort_order": 2
+        },
+        {
+          "location_tag": "Grand Indonesia",
+          "question": "Di GI, kita foto-foto di mana sampai satpam ngelirik?",
+          "options": ["Skybridge", "Depan bioskop", "Taman di West Mall", "Eskalator panjang"],
+          "correct_option_index": 2,
+          "fun_fact": "Hasil terbaiknya foto ke-47. Iya, aku hitung 📸",
+          "sort_order": 3
+        }
+      ],
+      "coupons": [
+        {
+          "title": "Kupon Jajan Blok M Sepuasnya",
+          "description": "Satu malam kulineran di Blok M, kamu yang pilih semua menunya, aku yang bayar.",
+          "required_points": 200,
+          "icon_code": "food-stall"
+        },
+        {
+          "title": "Kupon Dinner Date Spesial di GI",
+          "description": "Dinner di restoran pilihan kamu di Grand Indonesia, lengkap dengan dress code dan bunga.",
+          "required_points": 300,
+          "icon_code": "candle-dinner"
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Chapter Completion Trophy",
+          "description": "Tamatkan Chapter 1 untuk membuka Grand Prize: surat rahasia & galeri foto kita.",
+          "badge_icon": "trophy",
+          "trigger_type": "chapter_completion",
+          "reward": {
+            "type": "letter_gallery",
+            "letter": "Selamat ulang tahun, Dinda. Setiap chapter sama kamu selalu jadi favoritku...",
+            "photo_keys": ["gallery/chapter-1/01.jpg", "gallery/chapter-1/02.jpg", "gallery/chapter-1/03.jpg"]
+          }
+        },
+        {
+          "title": "Memory Master",
+          "description": "Jawab 100% benar dalam satu sesi.",
+          "badge_icon": "brain-heart",
+          "trigger_type": "perfect_score",
+          "reward": {
+            "type": "message",
+            "message": "Ingatanmu tentang kita lebih tajam dari ingatanku. Bonus: satu pelukan tanpa batas waktu 🤗"
+          }
+        },
+        {
+          "title": "First Try Explorer",
+          "description": "Tamatkan chapter pada percobaan pertama.",
+          "badge_icon": "compass",
+          "trigger_type": "first_try",
+          "reward": {
+            "type": "message",
+            "message": "Langsung tamat di percobaan pertama? Fix kamu memang ditakdirkan buat cerita ini ✨"
+          }
+        }
+      ]
+    }
+  ]
+}
